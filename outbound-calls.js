@@ -118,7 +118,7 @@ export function registerOutboundRoutes(fastify) {
               conversation_config_override: {
                 agent: {
                   prompt: { prompt: customParameters?.prompt || "you are a gary from the phone store" },
-                  first_message: "hey there! how can I help you today?",
+                  first_message: "Darrell Chee Darrell Chee Darrell Chee", //first message
                 },
               }
             };
